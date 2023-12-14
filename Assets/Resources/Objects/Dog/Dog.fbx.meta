@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: bd1ca8c7f0eab9e438e483d83cd6c731
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert13
+    second: {fileID: 2100000, guid: 06574af9c156ba64d820a158e51a5902, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: GoatRig_SHJntGrp|GoatRig_SHJntGrp|Take 001|BaseLayer
+      internalID: -6559183282776314692
+      firstFrame: 180
+      lastFrame: 195
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Dog(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SM_Beagle_01
+      parentName: Dog(Clone)
+      position: {x: -2.646978e-25, y: 0.0000000024187345, z: 0.032037113}
+      rotation: {x: -0.000000037748947, y: 0, z: -1.60712e-40, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig
+      parentName: Dog(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_SHJntGrp
+      parentName: Rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_ROOTSHJnt
+      parentName: GoatRig_SHJntGrp
+      position: {x: 0, y: 0.1079017, z: -0.0099999895}
+      rotation: {x: -0.7071068, y: -0.000000026043066, z: -0.000000026043073, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Spine_01SHJnt
+      parentName: GoatRig_ROOTSHJnt
+      position: {x: 1.14774065e-17, y: 0, z: 0.02575167}
+      rotation: {x: 0.50000006, y: 0.49999997, z: -0.49999997, w: 0.50000006}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: GoatRig_Spine_02SHJnt
+      parentName: GoatRig_Spine_01SHJnt
+      position: {x: -0.04260735, y: -0.0000000047683715, z: -3.7179482e-10}
+      rotation: {x: -0.000000021855698, y: 8.2101405e-16, z: -0.000000021855694, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Spine_TopSHJnt
+      parentName: GoatRig_Spine_02SHJnt
+      position: {x: -0.05375599, y: 2.7300584e-16, z: -0.0000000027215443}
+      rotation: {x: -0.000000021855696, y: 8.210142e-16, z: -0.000000021855694, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_l_Clavicle_01_01SHJnt
+      parentName: GoatRig_Spine_TopSHJnt
+      position: {x: 0.0000000023303934, y: -0.009673915, z: -0.0000000031444047}
+      rotation: {x: -0.000000015454313, y: -0.000000015454312, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_l_FrontLeg_HipSHJnt
+      parentName: GoatRig_l_Clavicle_01_01SHJnt
+      position: {x: -0.0156128425, y: -0.0000000022106386, z: 0.017474078}
+      rotation: {x: -0.616866, y: 0.0839516, z: 0.10553124, w: 0.77543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_l_FrontLeg_Knee1SHJnt
+      parentName: GoatRig_l_FrontLeg_HipSHJnt
+      position: {x: -0.042034097, y: -0.000000005736027, z: -0.000000004901832}
+      rotation: {x: -0.031107329, y: 0.030287623, z: -0.12115247, w: 0.991684}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: GoatRig_l_FrontLeg_Knee2SHJnt
+      parentName: GoatRig_l_FrontLeg_Knee1SHJnt
+      position: {x: -0.030956047, y: -0.0000000016813018, z: 0.0000000028138234}
+      rotation: {x: 0.0014636196, y: -0.06261548, z: -0.010013684, w: 0.9979865}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: GoatRig_l_FrontLeg_AnkleSHJnt
+      parentName: GoatRig_l_FrontLeg_Knee2SHJnt
+      position: {x: -0.03195331, y: -0.000000002689041, z: 0.0000000039452592}
+      rotation: {x: -0.00012861536, y: -0.1025797, z: 0.017843535, w: 0.9945648}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_l_FrontLeg_BallSHJnt
+      parentName: GoatRig_l_FrontLeg_AnkleSHJnt
+      position: {x: -0.013211768, y: 4.9560567e-10, z: 0.0051006353}
+      rotation: {x: -1.229167e-15, y: 0.7071067, z: 1.2291669e-15, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: GoatRig_l_FrontLeg_ToeSHJnt
+      parentName: GoatRig_l_FrontLeg_BallSHJnt
+      position: {x: -0.014999994, y: 0.000000001151277, z: -6.5567085e-10}
+      rotation: {x: 8.678238e-16, y: -9.313206e-10, z: 8.6782374e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_l_FrontLeg_ToeSHJnt_end
+      parentName: GoatRig_l_FrontLeg_ToeSHJnt
+      position: {x: -0, y: 0.014999997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_r_Clavicle_01_01SHJnt
+      parentName: GoatRig_Spine_TopSHJnt
+      position: {x: -2.0676764e-10, y: 0.009673912, z: -0.0000000022986844}
+      rotation: {x: -0.000000015454313, y: -0.000000015454312, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_r_FrontLeg_HipSHJnt
+      parentName: GoatRig_r_Clavicle_01_01SHJnt
+      position: {x: 0.0156128425, y: 0.000000002210638, z: 0.01747408}
+      rotation: {x: -0.0839517, y: 0.61686546, z: 0.7754304, w: 0.10553172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_r_FrontLeg_Knee1SHJnt
+      parentName: GoatRig_r_FrontLeg_HipSHJnt
+      position: {x: -0.042034097, y: 0.0000000014165301, z: -0.0000000022507252}
+      rotation: {x: 0.031107422, y: 0.030287955, z: 0.12115255, w: 0.99168396}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: GoatRig_r_FrontLeg_Knee2SHJnt
+      parentName: GoatRig_r_FrontLeg_Knee1SHJnt
+      position: {x: -0.030956052, y: -0.000000004065488, z: -0.000000004005916}
+      rotation: {x: -0.001463659, y: -0.0626161, z: 0.010013653, w: 0.99798644}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: GoatRig_r_FrontLeg_AnkleSHJnt
+      parentName: GoatRig_r_FrontLeg_Knee2SHJnt
+      position: {x: -0.03195331, y: 0.0000000020793305, z: 0.0000000067090715}
+      rotation: {x: 0.00012869581, y: -0.10257969, z: -0.017843556, w: 0.9945648}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_r_FrontLeg_BallSHJnt
+      parentName: GoatRig_r_FrontLeg_AnkleSHJnt
+      position: {x: -0.013211768, y: 4.9560556e-10, z: 0.0051006377}
+      rotation: {x: -1.229167e-15, y: 0.7071067, z: 1.2291669e-15, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: GoatRig_r_FrontLeg_ToeSHJnt
+      parentName: GoatRig_r_FrontLeg_BallSHJnt
+      position: {x: -0.014999991, y: -0.000000003617095, z: -6.556704e-10}
+      rotation: {x: 8.6782374e-16, y: -9.313225e-10, z: 8.6782364e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_r_FrontLeg_ToeSHJnt_end
+      parentName: GoatRig_r_FrontLeg_ToeSHJnt
+      position: {x: -0, y: 0.015, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Neck_01SHJnt
+      parentName: GoatRig_Spine_TopSHJnt
+      position: {x: -0.0322143, y: -0.0000000023841855, z: -0.013906578}
+      rotation: {x: 0.000000022980469, y: -0.23570435, z: -0.00000007213126, w: 0.9718249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Neck_02SHJnt
+      parentName: GoatRig_Neck_01SHJnt
+      position: {x: -0.020226622, y: 0, z: -0.000027070046}
+      rotation: {x: 3.1086245e-15, y: 0.0000000074505797, z: -2.753353e-14, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: GoatRig_Neck_TopSHJnt
+      parentName: GoatRig_Neck_02SHJnt
+      position: {x: -0.0056655547, y: 5.960447e-10, z: 0.000019893645}
+      rotation: {x: 1.3210288e-25, y: -0.0016129783, z: 8.881796e-16, w: 0.9999987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Head_JawSHJnt
+      parentName: GoatRig_Neck_TopSHJnt
+      position: {x: 0.009571233, y: 0, z: 0.027942123}
+      rotation: {x: 0.00000007375701, y: 0.000000073756986, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Head_JawEndSHJnt
+      parentName: GoatRig_Head_JawSHJnt
+      position: {x: 4.263256e-15, y: 0.0027216624, z: 0.019228438}
+      rotation: {x: 0.7071067, y: 1.3816811e-14, z: -3.1401853e-14, w: 0.7071069}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: GoatRig_Head_JawEndSHJnt_end
+      parentName: GoatRig_Head_JawEndSHJnt
+      position: {x: -0, y: 0.019420084, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Head_TopSHJnt
+      parentName: GoatRig_Neck_TopSHJnt
+      position: {x: -0.02999999, y: 4.5474734e-15, z: -0.000000020265576}
+      rotation: {x: 0.000000105367164, y: 0.00000010536716, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: GoatRig_l_Eye_01SHJnt
+      parentName: GoatRig_Head_TopSHJnt
+      position: {x: -0.010963678, y: -0.014784087, z: 0.0030726024}
+      rotation: {x: 0.54567873, y: -0.22365572, z: -0.31229275, w: 0.7447725}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: GoatRig_l_Eye_01SHJnt_end
+      parentName: GoatRig_l_Eye_01SHJnt
+      position: {x: -0, y: 0.01866043, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_r_Eye_01SHJnt
+      parentName: GoatRig_Head_TopSHJnt
+      position: {x: 0.010963678, y: -0.014784093, z: 0.003072597}
+      rotation: {x: 0.22365566, y: -0.5456789, z: 0.74477243, w: -0.3122928}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.9999998}
+    - name: GoatRig_r_Eye_01SHJnt_end
+      parentName: GoatRig_r_Eye_01SHJnt
+      position: {x: -0, y: 0.01866043, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_l_HindLeg_HipSHJnt
+      parentName: GoatRig_ROOTSHJnt
+      position: {x: -0.025286753, y: -0.01, z: 0}
+      rotation: {x: 0.45144182, y: -0.45798633, z: 0.51437247, w: 0.5673357}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: GoatRig_l_HindLeg_Knee1SHJnt
+      parentName: GoatRig_l_HindLeg_HipSHJnt
+      position: {x: -0.046111405, y: 0.0000000013302685, z: 0.0000000050374274}
+      rotation: {x: -2.0031117e-16, y: -0.4034588, z: 1.3445637e-16, w: 0.9149978}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: GoatRig_l_HindLeg_Knee2SHJnt
+      parentName: GoatRig_l_HindLeg_Knee1SHJnt
+      position: {x: -0.035655387, y: 2.4572144e-10, z: -0.0000000053784497}
+      rotation: {x: 1.718318e-16, y: 0.2630514, z: -9.200835e-16, w: 0.9647818}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_l_HindLeg_AnkleSHJnt
+      parentName: GoatRig_l_HindLeg_Knee2SHJnt
+      position: {x: -0.033968866, y: 0.0000000017285151, z: -0.000000011233686}
+      rotation: {x: 0.010139901, y: 0.7495567, z: 0.036347635, w: 0.6608638}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: GoatRig_l_HindLeg_BallSHJnt
+      parentName: GoatRig_l_HindLeg_AnkleSHJnt
+      position: {x: -0.015000003, y: 4.9293903e-16, z: 0.0025131558}
+      rotation: {x: 1.9184657e-13, y: 0.7071067, z: -1.9184654e-13, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: GoatRig_l_HindLeg_ToeSHJnt
+      parentName: GoatRig_l_HindLeg_BallSHJnt
+      position: {x: -0.014579679, y: 0.0000000029365255, z: 0.0000000020783835}
+      rotation: {x: -2.7279492e-13, y: 0.000000012269055, z: 2.6827484e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_l_HindLeg_ToeSHJnt_end
+      parentName: GoatRig_l_HindLeg_ToeSHJnt
+      position: {x: -0, y: 0.014579675, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_r_HindLeg_HipSHJnt
+      parentName: GoatRig_ROOTSHJnt
+      position: {x: 0.025286753, y: -0.01, z: 0}
+      rotation: {x: 0.4579864, y: -0.45144176, z: 0.5673358, w: 0.5143724}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: GoatRig_r_HindLeg_Knee1SHJnt
+      parentName: GoatRig_r_HindLeg_HipSHJnt
+      position: {x: -0.046111412, y: -0.0000000034381031, z: 0.0000000044993156}
+      rotation: {x: -2.0111226e-16, y: -0.4034588, z: 1.3425532e-16, w: 0.9149978}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: GoatRig_r_HindLeg_Knee2SHJnt
+      parentName: GoatRig_r_HindLeg_Knee1SHJnt
+      position: {x: -0.035655387, y: -0.0000000021384643, z: -0.0000000041582933}
+      rotation: {x: 1.7259337e-16, y: 0.2630514, z: -9.205877e-16, w: 0.9647818}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_r_HindLeg_AnkleSHJnt
+      parentName: GoatRig_r_HindLeg_Knee2SHJnt
+      position: {x: -0.033968866, y: -0.0000000030398564, z: -0.000000011118055}
+      rotation: {x: -0.010140095, y: 0.7495567, z: -0.036347706, w: 0.6608638}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: GoatRig_r_HindLeg_BallSHJnt
+      parentName: GoatRig_r_HindLeg_AnkleSHJnt
+      position: {x: -0.015000003, y: 4.973799e-16, z: 0.0025131558}
+      rotation: {x: 1.8829385e-13, y: 0.7071067, z: -1.8829384e-13, w: 0.7071068}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: GoatRig_r_HindLeg_ToeSHJnt
+      parentName: GoatRig_r_HindLeg_BallSHJnt
+      position: {x: -0.014579676, y: 6.170078e-10, z: 0.0000000020240714}
+      rotation: {x: -2.338374e-13, y: 0.000000010406467, z: 2.2754693e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_r_HindLeg_ToeSHJnt_end
+      parentName: GoatRig_r_HindLeg_ToeSHJnt
+      position: {x: -0, y: 0.014579672, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Tail_01SHJnt
+      parentName: GoatRig_ROOTSHJnt
+      position: {x: 3.3087233e-26, y: -0.005079231, z: -0.009250245}
+      rotation: {x: -0.2535475, y: -0.25354746, z: -0.66008615, w: 0.6600861}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Tail_02SHJnt
+      parentName: GoatRig_Tail_01SHJnt
+      position: {x: -0.011093898, y: -3.7494146e-16, z: -0.00066500664}
+      rotation: {x: 3.4258642e-16, y: 1.2490008e-16, z: -0.000000008143267, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Tail_TopSHJnt
+      parentName: GoatRig_Tail_02SHJnt
+      position: {x: -0.0114946645, y: -1.065814e-15, z: 0.0019352341}
+      rotation: {x: -0.00000004028918, y: -0.13247424, z: -0.000000022468827, w: 0.99118644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Tail_TopSHJnt_end
+      parentName: GoatRig_Tail_TopSHJnt
+      position: {x: -0, y: 0.011656437, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Tail_01
+      parentName: GoatRig_ROOTSHJnt
+      position: {x: -2.7682392e-16, y: 0.001713295, z: -0.0026011036}
+      rotation: {x: -0.2777931, y: -0.6502546, z: 0.2777931, w: 0.65025455}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: GoatRig_Tail_02
+      parentName: GoatRig_Tail_01
+      position: {x: -0.025080819, y: 0.0041743037, z: 0.0000000010963174}
+      rotation: {x: 0.1000293, y: 0.69999576, z: -0.10002928, w: 0.6999959}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: GoatRig_Tail_03
+      parentName: GoatRig_Tail_02
+      position: {x: -5.436393e-10, y: -0.020232106, z: -0.0132287}
+      rotation: {x: 0.25881907, y: -0.0000000015843202, z: -0.000000005912773, w: 0.9659258}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: GoatRig_Tail_04
+      parentName: GoatRig_Tail_03
+      position: {x: 4.0856205e-16, y: -0.021609282, z: -0.00044454573}
+      rotation: {x: -0.4112769, y: -0.5751968, z: 0.4112769, w: 0.5751967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GoatRig_Tail_05
+      parentName: GoatRig_Tail_04
+      position: {x: -0.035997566, y: 0.0054632244, z: 0.0000000015735031}
+      rotation: {x: 0.411277, y: 0.5751967, z: -0.41127694, w: 0.57519674}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: GoatRig_Tail_05_end
+      parentName: GoatRig_Tail_05
+      position: {x: -0, y: 0.036409784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
